@@ -1,0 +1,609 @@
+@charset "UTF-8";
+.btn-box {
+    margin-top: 80px;
+    font-size: 0;
+    text-align: center;
+    display: block;
+}
+
+.btn-box a {
+    background-color: #004eff;
+    width: 290px;
+    height: 66px;
+    line-height: 66px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 1.5rem;
+    font-size: 24px \9;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.btn-box a:first-child {
+    margin-left: 0;
+}
+
+@media (max-width: 1280px) {
+    .btn-box a {
+        width: 230px;
+        height: 54px;
+        line-height: 54px;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    #S1 .btn-box {
+        width: 85%;
+        margin: 0 auto;
+    }
+    
+    .btn-box a {
+        width: 100%;
+        height: 76px;
+        line-height: 76px;
+        margin-top: 24px;
+        margin-left: 0;
+        display: block;
+    }
+
+    .btn-box a.link {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .btn-box a {
+        height: 60px;
+        line-height: 60px;
+        margin-top: 26px;
+        font-size: 1.25rem;
+        font-size: 20px \9;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn-box a {
+        margin-top: 20px;
+    }
+}
+
+/*-------------------------
+            K V
+-------------------------*/
+#KV {position: relative;}
+#KV .bg-b {display: none;}
+
+#KV .kv-2018 {
+    width: 596px;
+    height: 155px;
+    margin: 50px auto 0;
+    display: block;
+}
+
+#KV .kv-tpg {
+    width: 931px;
+    height: 147px;
+    margin: 30px auto;
+    display: block;
+}
+
+#KV .kv-adv {
+    width: 439px;
+    height: 39px;
+    margin: 0 auto;
+    display: block;
+}
+
+#KV .desc {
+    line-height: 32px;
+    margin-top: 80px;
+    font-size: 1.125rem;
+    font-size: 18px \9;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    #KV .kv-2018 {
+        width: 100%;
+        height: auto;
+        padding: 0 17%;
+    }
+    
+    #KV .kv-tpg {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    #KV .bg-b {
+        background-image: url(../images/m/bg-kv-b.jpg);
+        height: 250px;
+        bottom: 0;
+        display: block;
+    }
+    #KV .kv-2018 {
+        width: 100%;
+        padding: 0;
+    }
+    #KV .desc {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 750px) {
+    #KV .kv-adv {
+        width: 100%;
+        height: auto;
+        padding: 0 12%;
+    }
+}
+
+@media (max-width: 640px) {
+    #KV .desc {
+        margin-top: 20px;
+    }
+}
+
+/*-------------------------
+     S E C T I O N
+-------------------------*/
+article {
+    padding-bottom: 180px;
+}
+
+article section[id^='S'] {
+    position: relative;
+    overflow: hidden;
+}
+
+article section h1[class^='label'] {
+    font-size: 3.125rem;
+    font-size: 50px \9;
+    text-align: center;
+}
+
+article section div[class^='bg'] {
+    background-position: center top;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 1920px;
+    left: 50%;
+    margin-left: -960px;
+}
+
+#S1 .container {
+    max-width: 1550px;
+    padding-top: 280px;
+}
+
+#S1 .bg-t {
+    background-image: url(../images/bg-s1-t.jpg);
+    height: 540px;
+    top: 0;
+}
+
+#S1 .bg-b {
+    background-image: url(../images/bg-s1-b.jpg);
+    height: 760px;
+    bottom: 0;
+}
+
+#S1 .pc-speakers {
+    display: block;
+}
+#S1 .m-speakers {
+    display: none;
+}
+
+#S1 .ui-speakers {
+    font-size: 0;
+}
+
+#S1 .ui-speakers li {
+    width: 23%;
+    margin: 90px 1% 0;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#S1 .ui-speakers img {
+    width: 216px;
+    height: 216px;
+}
+
+#S1 .ui-speakers .name {
+    line-height: 84px;
+    margin: 42px 0;
+    font-size: 1.875rem;
+    font-size: 30px \9;
+    font-weight: bold;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+#S1 .ui-speakers .info {
+    line-height: 32px;
+    font-size: 1.25rem;
+    font-size: 20px \9;
+}
+
+#S1 .ui-speakers .company {
+    font-weight: bold;
+}
+
+#S2 .container {
+    padding-top: 170px;
+}
+
+#S2 .bg-t {
+    background-image: url(../images/bg-s2-t.jpg);
+    height: 610px;
+    top: 0;
+}
+
+#S2 .bg-b {
+    background-image: url(../images/bg-s2-b.jpg);
+    height: 200px;
+    bottom: 0;
+}
+
+#S2 .date, #S2 .addr {
+    line-height: 136%;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    font-size: 24px \9;
+    text-align: center;
+}
+
+#S2 .date .lot, #S2 .addr .lot {
+    font-size: 2.5rem;
+    font-size: 40px \9;
+    font-style: italic;
+}
+
+#S2 .addr.en .lot {
+    margin: 20px 0;
+    display: block;
+}
+
+#S2 .label2 {
+    margin-top: 80px;
+    font-size: 1.5rem;
+    font-size: 24px \9;
+    text-align: center;
+}
+
+#S2 .rundown {
+    line-height: 32px;
+    margin: 40px auto 0;
+    font-size: 1.25rem;
+    font-size: 20px \9;
+}
+
+#S2 .rundown .time {
+    width: 22%;
+    padding: 20px;
+    padding-left: 0;
+}
+
+#S2 .rundown .data {
+    width: 78%;
+    padding: 20px;
+    border-bottom: 1px solid white;
+}
+
+#S2 .rundown .data p {
+    margin-left : 5em; 
+    text-indent : -5em;
+}
+
+#S2 .rundown .tea, #S2 .rundown .end {
+    padding: 0;
+}
+
+#S2 .rundown .tea p, #S2 .rundown .end p {
+    background-color: #464970;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+    margin-left : 0; 
+    text-indent : 0;
+}
+
+#S3 .container {
+    padding-top: 380px;
+}
+
+#S3 .bg {
+    background-image: url(../images/bg-s3.jpg);
+    height: 1020px;
+    top: 0;
+}
+
+#S3 .logo {
+    background-image: url(../images/s3_logo.png);
+    background-repeat: no-repeat;
+    width: 205px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+#S3 .label {
+    margin-top: 40px;
+}
+
+#S3 .desc {
+    line-height: 32px;
+    margin-top: 50px;
+    font-size: 1.25rem;
+    font-size: 20px \9;
+    text-align: center;
+}
+
+@media (max-width: 1280px) {
+    #S1 .container {
+        max-width: 1000px;
+    }
+    #S1 .ui-speakers li {
+        width: 31%;
+    }
+}
+
+@media (max-width: 960px) {
+    #S1 .ui-speakers li {
+        width: 46%;
+        margin: 90px 2% 0;
+    }
+}
+
+@media (max-width: 768px) {
+    article section div[class^='bg'] {
+        background-size: 768px auto;
+        width: 768px;
+        margin-left: -384px;
+    }
+    #S1 .container, #S2 .container {
+        width: 94%;
+    }
+    #S1 .bg-t {
+        background-image: url(../images/m/bg-s1-t.jpg);
+        height: 317px;
+    }
+    #S1 .bg-b {
+        background-image: url(../images/m/bg-s1-b.jpg);
+        height: 901px;
+    }
+    #S2 .bg-t {
+        background-image: url(../images/m/bg-s2-t.jpg);
+        height: 440px;
+    }
+    #S2 .bg-b {
+        background-image: url(../images/m/bg-s2-b.jpg);
+        height: 31px;
+    }
+    #S3 .bg {
+        background-image: url(../images/m/bg-s3.jpg);
+        height: 1044px;
+    }
+
+    #S1 .container {
+        padding-top: 200px;
+    }
+    #S1 .pc-speakers {
+        display: none;
+    }
+    #S1 .m-speakers {
+        position: relative;
+        min-height: 1208px;
+        display: block;
+    }
+
+    #S1 .m-speakers div[class^='arrow'] {
+        background-image: url(../images/arrow.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        top: 50%;
+        margin-top: -17px;
+    }
+    #S1 .m-speakers .arrow-l {
+        left: -2%;
+        display: none;
+    }
+    #S1 .m-speakers .arrow-r {
+        background-position-x: -35px;
+        right: -2%;
+    }
+
+    #S1 .m-speakers .ui-speakers {
+        position: absolute;
+        display: none;
+    }
+
+    #S1 .ui-speakers li {
+        margin-top: 40px;
+    }
+
+    #S2 .container {
+        padding-top: 140px;
+    }
+}
+
+@media (max-width: 640px) {
+    article {
+        padding-bottom: 100px;
+    }
+
+    article section h1[class^='label'] {
+        font-size: 2.5rem;
+        font-size: 40px \9;
+    }
+
+    #S1 .m-speakers {
+        min-height: 974px;
+    }
+
+    #S1 .ui-speakers img {
+        width: 174px;
+        height: 174px;
+    }
+
+    #S1 .ui-speakers .name {
+        line-height: 66px;
+        margin: 34px 0;
+        font-size: 1.5rem;
+        font-size: 24px \9;
+    }
+    #S1 .ui-speakers .info {
+        line-height: 28px;
+        font-size: 1rem;
+        font-size: 16px \9;
+    }
+
+    #S2 .label2 {
+        font-size: 1.25rem;
+        font-size: 20px \9;
+    }
+
+    #S2 .rundown {
+        line-height: 28px;
+        margin: 10px auto 0;
+        font-size: 0.875rem;
+        font-size: 14px \9;
+    }
+
+    #S2 .rundown .data {
+        padding: 10px;
+    }
+    #S2 .rundown .tea, #S2 .rundown .end {
+        padding: 0;
+    }
+    #S2 .rundown .tea p, #S2 .rundown .end p {
+        padding: 0 10px;
+    }
+
+    #S2 .date, #S2 .addr {
+        font-size: 1.25rem;
+        font-size: 20px \9;
+    }
+
+    #S2 .date .lot, #S2 .addr .lot {
+        margin: 20px 0;
+        font-size: 2rem;
+        font-size: 32px \9;
+        display: block;
+    }
+    
+    #S3 {
+        min-height: 970px;
+    }
+    #S3 .logo {
+        background-size: cover;
+        width: 164px;
+        height: 120px;
+        display: block;
+    }
+    #S3 .label {
+        font-size: 2.125rem;
+        font-size: 34px \9;
+    }
+    #S3 .desc {
+        line-height: 28px;
+        margin-top: 30px;
+        font-size: 1rem;
+        font-size: 16px \9;
+    }
+}
+
+@media (max-width: 480px) {
+    article section h1[class^='label'] {
+        font-size: 1.75rem;
+        font-size: 28px \9;
+    }
+
+    #S1 .m-speakers {
+        min-height: 914px;
+    }
+
+    #S1 .ui-speakers img {
+        width: 140px;
+        height: 140px;
+    }
+    #S1 .ui-speakers .name {
+        line-height: 52px;
+        margin: 26px 0;
+        font-size: 1.125rem;
+        font-size: 18px \9;
+    }
+    #S1 .ui-speakers .info {
+        line-height: 24px;
+        font-size: 0.875rem;
+        font-size: 14px \9;
+    }
+
+    #S2 .date, #S2 .addr {
+        font-size: 1rem;
+        font-size: 16px \9;
+    }
+
+    #S2 .date .lot, #S2 .addr .lot {
+        font-size: 1.5rem;
+        font-size: 24px \9;
+    }
+
+    #S2 .label2 {
+        margin-top: 60px;
+        font-size: 1rem;
+        font-size: 16px \9;
+    }
+
+    #S2 .rundown .time {
+        width: 24%;
+        padding-right: 6px;
+    }
+
+    #S2 .rundown .data {
+        width: 76%;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    #S2 .rundown .tea, #S2 .rundown .end {
+        padding: 0;
+    }
+
+    #S3 .logo {
+        width: 148px;
+        height: 108px;
+    }
+    #S3 .label {
+        font-size: 1.625rem;
+        font-size: 26px \9;
+    }
+    #S3 .desc {
+        font-size: 0.875rem;
+        font-size: 14px \9;
+    }
+}
+
+@media (max-width: 480px) {
+    #S1 .m-speakers {
+        min-height: 734px;
+    }
+    #S1 .ui-speakers img {
+        width: 100px;
+        height: 100px;
+    }
+    #S1 .ui-speakers .name {
+        font-size: 1rem;
+        font-size: 16px \9;
+    }
+}
