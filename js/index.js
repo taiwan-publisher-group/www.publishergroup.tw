@@ -1,7 +1,7 @@
 var $win = $(window);
 var $ww = $win.innerWidth();
 var sId = tempID = 1;
-var lineMsg = "【2018 TPG Forum 免費報名中！】首度邀請國外知名聯播商，一同分享未來全球數位廣告趨勢與發展，機會難得，錯過不一定有下次，請儘速報名！";
+var lineMsg = "【2018 TPG Forum 全球廣告趨勢論壇免費報名中！】邀請國內外知名聯播商，一同分享全球數位廣告趨勢發展，機會難得，請把握機會報名。";
 var shareUrl = "https://www.publishergroup.tw/";
 var len = 'tw';
 
