@@ -101,7 +101,7 @@ header .i-line {
         width: 40px;
         height: 40px;
     }
-
+    
     header .i-line {
         width: 40px;
         height: 40px;
@@ -159,8 +159,8 @@ footer .co-organizer .logo {
     background-image: url(../images/f_co-organizer.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 552px;
-    height: 50px;
+    width: 650px;
+    height: 122px;
 }
 
 footer .sponsor .logo {
@@ -191,8 +191,8 @@ footer .sponsor .logo {
 
     footer .co-organizer .logo {
         background-image: url(../images/m/f_co-organizer.png);
-        width: 504px;
-        height: 155px;
+        width: 515px;
+        height: 264px;
     }
 }
 
@@ -210,12 +210,12 @@ footer .sponsor .logo {
         width: 150px;
         height: 100px;
     }
-
+    
     footer .co-organizer .logo {
         width: 412px;
-        height: 127px;
+        height: 211px;
     }
-
+    
     footer .sponsor .logo {
         width: 120px;
         height: 31px;
@@ -232,12 +232,12 @@ footer .sponsor .logo {
         width: 120px;
         height: 80px;
     }
-
+    
     footer .co-organizer .logo {
         width: 288px;
-        height: 89px;
+        height: 148px;
     }
-
+    
     footer .sponsor .logo {
         width: 96px;
         height: 24px;
