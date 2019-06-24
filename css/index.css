@@ -459,8 +459,9 @@ article section div[class^='bg'] {
     }
 
     #S1 .ui-speakers .name {
-        line-height: 66px;
+        line-height: 38px;
         margin: 34px 0;
+        padding: 14px 0;
         font-size: 1.5rem;
         font-size: 24px \9;
     }
@@ -540,7 +541,8 @@ article section div[class^='bg'] {
         height: 140px;
     }
     #S1 .ui-speakers .name {
-        line-height: 52px;
+        line-height: 28px;
+        padding: 12px 0;
         margin: 26px 0;
         font-size: 1.125rem;
         font-size: 18px \9;
