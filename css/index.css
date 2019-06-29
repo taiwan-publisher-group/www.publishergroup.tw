@@ -363,10 +363,6 @@ article section div[class^='bg'] {
         width: 46%;
         margin: 90px 2% 0;
     }
-
-    #S1 #speakers-2 li {
-        width: 100%;
-    }
 }
 
 @media (max-width: 768px) {
@@ -432,6 +428,7 @@ article section div[class^='bg'] {
     #S1 .m-speakers .ui-speakers {
         position: absolute;
         display: none;
+        width: 100%;
     }
 
     #S1 .ui-speakers li {
